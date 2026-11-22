@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Version>0.0.3</Version>
@@ -8,6 +8,6 @@
         <PackageProjectUrl>https://github.com/trygu/PxTools.Bucket</PackageProjectUrl>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="AWSSDK.S3" Version="3.7.201.16" />
+        <PackageReference Include="AWSSDK.S3" Version="3.7.511.8" />
     </ItemGroup>
 </Project>
