@@ -31,7 +31,7 @@ namespace PxTools.Bucket.Client
             {
                 ServiceURL = endpoint,
                 ForcePathStyle = true,
-                UseHttp = true
+                UseHttp = endpoint.StartsWith("http://", StringComparison.OrdinalIgnoreCase)
             };
 
             if (useGCS)
